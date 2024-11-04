@@ -19,34 +19,29 @@ go get github.com/CristianCurteanu/slicr
 ## Reference
 
 Table of contents:
-- Find
-- Contains
-- Find
-- Contains
-- Any
-- All
-- Filter
-- ForEach
-- Map
-- Reduce
-- Pop
-- Prepend
-- Shift
-- Delete
-- Extend
-- ExtendAt
-- ExtendCap
-- Deduplicate
-- Count
-- Partition
-- GroupBy
-- Distinct/Unique
-- Reverse
-- Sort
+- [Find](#find)
+- [Contains](#contains)
+- [Any](#any)
+- [All](#all)
+- [Filter](#filter)
+- [ForEach](#foreach)
+- [Map](#map)
+- [Reduce](#reduce)
+- [Pop](#pop)
+- [Prepend](#prepend)
+- [Shift](#shift)
+- [Delete](#delete)
+- [Extend](#extend)
+- [ExtendAt](#extendat)
+- [ExtendCap](#extendcap)
+- [Deduplicate](#deduplicate)
+- [Count](#count)
+- [Partition](#partition)
+- [GroupBy](#groupby)
+- [Chunk](#chunk)
 - Zip
 - Unzip
 - Flatten
-- Chunk
 - Take
 - Drop
 - TakeWhile
@@ -324,13 +319,14 @@ fmt.Printf("fruits: %+v", groupedFruits) // fruits: [[apple orange orange] [bana
 
 Split a slice into multiple slices of a specified size.
 
-
 ```go
 fruits := []string{"apple", "orange", "banana", "orange"}
 
 groupedFruits := Chunk(fruits, 3)
 fmt.Printf("fruits: %+v", groupedFruits) // fruits: [[apple orange banana] [orange]]
 ```
+
+## TODOs
 
 ### Zip
 
