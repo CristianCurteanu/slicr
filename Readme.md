@@ -2,8 +2,6 @@
 
 # Golang's Slicr 
 
-## Description
-
 Golang Slicr (pronounced as `slicer`) is a collection of generic functions, that makes is easier to operate Golang's slices. You can read all the functions reference down below in this description.
 
 In order to be able to use it, make sure, that you are importing for an Go version `>= 1.18`, as starting with this version, Go started to support generics, and as mentioned above, these are generic functions.
